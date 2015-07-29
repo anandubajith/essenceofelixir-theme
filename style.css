@@ -484,6 +484,8 @@ a, a:visited {
   text-transform: uppercase;
   list-style: none;
   display: inline;
+  font-weight: bold;
+  font-family: sans-serif;
   padding: .5rem;
   font-size: .88rem;
 }
