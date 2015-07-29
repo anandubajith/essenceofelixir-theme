@@ -36,7 +36,7 @@ body {
 
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * Correct `block` display not defined for `detail.ss` or `summary` in IE 10/11
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
@@ -485,6 +485,15 @@ a, a:visited {
   list-style: none;
   display: inline;
   padding: .5rem;
+  font-size: .88rem;
+}
+
+.site-navigation a {
+  color: #aaaaaa;
+}
+
+.site-navigation a:hover {
+  color: #4e2a8e;
 }
 
 .site-navigation:before, .site-navigation:after {
