@@ -14,6 +14,7 @@
           <?php the_content('Read More &raquo;'); ?>
         </div>
       </article>
+      <hr>
     <?php endwhile; ?>
   </div>
 </main>
