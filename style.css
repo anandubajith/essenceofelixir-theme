@@ -1,0 +1,131 @@
+/*
+Theme Name: Essence
+Theme URI: http://essenceofelixir.com
+Author: Anandu B Ajith
+Author URI: http://anandu.net
+Description: something
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url(https://necolas.github.io/normalize.css/3.0.2/normalize.css);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+
+html { font-size: 100%; }
+
+body {
+  font-family: 'Roboto Slab', Georgia, sans-serif;
+  color: #404040;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+a, a:visited {
+  color: #4e2a8e;
+  text-decoration: none
+}
+
+.container {
+  padding: 1rem;
+  width:100%;
+  max-width: 840px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.site-header {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.site-header h1, .entry-header h1 {
+  font-weight: normal;
+  margin-top: 0;
+}
+.site-header a,
+.entry-header a {
+  color: #000;
+}
+
+.site-navigation ul {
+  margin: 0;
+  padding: .5rem 0;
+  display: inline-block;
+
+}
+.site-navigation li {
+  text-transform: uppercase;
+  list-style: none;
+  display: inline;
+  padding: .5rem;
+}
+
+.site-navigation:before, .site-navigation:after {
+  display: block;
+  content: ' ';
+  height: 1px;
+  background-color: #E8E8E8;
+  background: -webkit-linear-gradient(45deg, #f9f9f9, #E8E8E8, #f9f9f9);
+  background: linear,45deg,#f9f9f9,#E8E8E8,#f9f9f9;
+}
+
+.site-content {
+  width: 70%;
+  float: left;
+
+}
+
+.site-content:after, .container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sidebar {
+  width:28%;
+  float: right;
+
+}
+
+.widget-container ul {
+  margin: 0;
+  padding:0;
+  list-style: none;
+
+}
+
+.widget-container li {
+  border-top: 1px solid #ebebeb;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+
+.widget-container li:first-child {
+  border: none;
+}
+
+.sidebar h2 {
+  color: #aaaaaa;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1rem;
+
+  text-align: center;
+}
+
+footer {
+  display: block;
+  clear:both;
+  text-align:center;
+  padding-top: 2rem;
+}
+
+
+@media screen and (max-width:660px) {
+  .site-content,
+  .sidebar {
+    width: 100%;
+  }
+}
