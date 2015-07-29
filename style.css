@@ -486,6 +486,8 @@ a, a:visited {
   display: inline;
   font-weight: normal;
   font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px
   padding: .5rem;
   font-size: .88rem;
 }
