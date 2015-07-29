@@ -13,15 +13,6 @@
         <div class="entry-content">
           <?php the_content('Read More &raquo;'); ?>
         </div>
-        <section class="entry-meta">
-          <?php if ( count( get_the_category() ) ) : ?>
-            <span class="cat-links">
-              Categories:
-              <?php echo get_the_category_list( ', ' ); ?>
-            </span>
-            <?php endif; ?>
-        </section>
-        <!-- .entry-meta -->
       </article>
     <?php endwhile; ?>
   </div>
