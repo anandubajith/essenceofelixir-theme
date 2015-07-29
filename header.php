@@ -25,7 +25,7 @@
     <header class="site-header">
       <img src="http://104.236.205.39/wp-content/uploads/2015/07/logo.png" alt="logo" />
       <h1>
-        <a href="#">Essence of Elixir</a>
+        <a href="/">Essence of Elixir</a>
       </h1>
       <p>
         Drink, and become immortal.
