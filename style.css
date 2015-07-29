@@ -552,6 +552,17 @@ a, a:visited {
 
   text-align: center;
 }
+hr {
+  border: none;
+  height: 0;
+  border-top: 5px solid #ebebeb;
+  margin: 20px;
+  width: 100px;
+  text-align: center;
+  margin: 60px auto;
+  padding: 0;
+}
+
 
 footer {
   display: block;
