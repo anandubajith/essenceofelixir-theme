@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="<?php bloginfo( 'charset' ); ?>" />
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
   <title>
   <?php
   global $page, $paged;
