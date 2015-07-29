@@ -16,6 +16,8 @@
       </article>
       <hr>
     <?php endwhile; ?>
+    
+    <?php previous_posts_link( '« Older Entries' ) ?>
   </div>
 </main>
 
