@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="<?php bloginfo( 'charset' ); ?>" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto+Slab' rel='stylesheet' type='text/css'>
   <title>
   <?php
@@ -23,7 +24,7 @@
 <body>
   <div class="container">
     <header class="site-header">
-      <img src="http://104.236.205.39/wp-content/uploads/2015/07/logo.png" alt="logo" />
+      <img src="/wp-content/uploads/2015/07/logo.png" alt="logo" />
       <h1>
         <a href="/">Essence of Elixir</a>
       </h1>
